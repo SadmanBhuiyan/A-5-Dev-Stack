@@ -19,13 +19,13 @@ const TechnologyCard = ({ technology, onAdd, added }) => {
             </div>
 
             <div className="technologyBottom">
-                <p>★ {technology.rating}</p>
+                <p>Rating: {technology.rating}</p>
 
                 <button
                     className={added ? "addedBtn" : "addBtn"}
                     onClick={() => onAdd(technology)}
                 >
-                    {added ? "✓ Added to Stack" : "Add to Stack"}
+                    {added ? "Added to Stack" : "Add to Stack"}
                 </button>
             </div>
         </div>
