@@ -193,3 +193,112 @@ ul {
 .addedBtn {
     background-color: #F1F5F9;
 }
+
+
+/* Technology section */
+
+.technologySection {
+    margin-top: 80px;
+}
+
+.technologyHeading {
+    margin-bottom: 30px;
+}
+
+.technologyHeading h2 {
+    color: black;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.technologyLayout {
+    display: flex;
+    gap: 25px;
+}
+
+.technologyGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    flex: 1;
+}
+
+/* Your Stack */
+
+.yourStack {
+    width: 280px;
+    border: 1px solid #E2E8F0;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    height: fit-content;
+}
+
+.stackHeading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.stackHeading h2 {
+    color: black;
+}
+
+.yourStack .removeBtn {
+    border: 2px solid #D82C20;
+    color: #D82C20;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin: 10px;
+}
+
+.emptyStack {
+    text-align: center;
+    padding: 30px 10px;
+}
+
+.emptyStack p {
+    color: black;
+    margin-bottom: 5px;
+}
+
+.emptyStack span {
+    font-size: 14px;
+}
+
+.stackList {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.stackItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: #F8FAFC;
+    border-radius: 8px;
+}
+
+.stackItem img {
+    width: 35px;
+    height: 35px;
+}
+
+.stackItem div {
+    flex: 1;
+}
+
+.stackItem h4 {
+    color: black;
+}
+
+.stackItem p {
+    font-size: 13px;
+}
+
+.stackItem button {
+    font-size: 20px;
+}
