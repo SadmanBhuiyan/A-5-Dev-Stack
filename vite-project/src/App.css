@@ -9,6 +9,8 @@
 
 }
 
+/* Nav bar */
+
 .navContainer {
     display: flex;
     justify-content: space-between;
@@ -41,6 +43,8 @@ button {
     font-size: 17px;
 }
 
+
+/* Banner section */
 
 .bannerContainer {
     display: flex;
@@ -80,4 +84,22 @@ button {
 
 .bannerHeadingContainer {
     font-size: 25px;
+}
+
+/* Footer */
+
+.borderDiv {
+    height: 1px;
+    background-color: rgb(235, 231, 231);
+    margin: 50px 0px;
+}
+
+.footerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
 }

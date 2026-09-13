@@ -3,6 +3,7 @@ import './App.css'
 import Nav from './Nav.jsx'
 import Check from './Check.jsx'
 import Banner from './Banner.jsx'
+import Footer from './Footer.jsx'
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <div>
         <Nav></Nav>
         <Banner></Banner>
+        <Footer></Footer>
         <Check></Check>
       </div>
     </div>
