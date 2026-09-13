@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* .mainContainer {
+    display: flex;
+    gap: 10rem;
+    
+} */
+
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    padding: 15px;
+    z-index: 10;
+}
+
+.pageList,
+.navBtnContainer {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+button {
+    all: unset
+}
+
+.navBtnContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    font-size: 17px;
+}
