@@ -1,19 +1,23 @@
 import React from 'react';
+import bannerPhoto from './assets/banner-stack.png'
 
 const Banner = () => {
     return (
-        <div>
-            <div>
-                <h1>Build Your Ideal</h1>
-                <h1>Development Stack</h1>
-                <p>Explore frontend, backend, database, and tooling options, <br />
+        <div className='bannerContainer'>
+            <div className='bannerTxtContainer'>
+                <div className='bannerHeadingContainer'>
+                    <h1>Build Your Ideal</h1>
+                    <h1 className='gradientText'>Development Stack</h1>
+                </div>
+                <p style={{fontSize: '20px'}}>Explore frontend, backend, database, and tooling options, <br />
                     compare them side by side, and put together the stack that fits your <br />
                     next project.</p>
+                <div bannerBtnContainer>
+                    <button className='bannerBtn gradientBtn'>Explore Technologies</button>
+                    <button className='bannerBtn'>Learn More</button>
+                </div>
             </div>
-            <div>
-                <button>Explore Technologies</button>
-                <button>Learn More</button>
-            </div>
+            <img src={bannerPhoto} alt="Banner Photo" />
         </div>
     );
 };
