@@ -1,13 +1,13 @@
-import { useState } from 'react'
 import './App.css'
 import Nav from './Nav.jsx'
 import Banner from './Banner.jsx'
+import TechnologyCard from './TechnologyCard.jsx'
 import Footer from './Footer.jsx'
 
 
-function App() {
-  const [count, setCount] = useState(0)
 
+
+function App() {
   return (
     <div className='mainContainer'>
       <div>

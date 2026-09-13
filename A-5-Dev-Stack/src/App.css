@@ -117,3 +117,79 @@ ul {
     flex-direction: column;
     gap: 10px;
 }
+
+
+/* Technology cards */
+
+.technologyCard {
+    border: 1px solid #E2E8F0;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+
+.technologyTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.technologyTop img {
+    width: 45px;
+    height: 45px;
+}
+
+.technologyBadge {
+    background-color: #FCE7F3;
+    color: #DB2777;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+.technologyCard h3 {
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.technologyCard p {
+    line-height: 1.5;
+}
+
+.technologyInfo {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.technologyInfo span {
+    background-color: #F1F5F9;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 13px;
+}
+
+.technologyBottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.technologyBottom p {
+    color: #F59E0B;
+}
+
+.addBtn,
+.addedBtn {
+    padding: 8px 12px;
+    border-radius: 7px;
+    background-color: #FFFFFF;
+    border: 1px solid #CBD5E1;
+    color: black;
+}
+
+.addedBtn {
+    background-color: #F1F5F9;
+}
