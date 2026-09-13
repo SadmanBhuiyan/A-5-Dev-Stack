@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import './App.css'
 import Nav from './Nav.jsx'
-import Check from './Check.jsx'
 import Banner from './Banner.jsx'
 import Footer from './Footer.jsx'
 
@@ -15,7 +14,6 @@ function App() {
         <Nav></Nav>
         <Banner></Banner>
         <Footer></Footer>
-        <Check></Check>
       </div>
     </div>
   )

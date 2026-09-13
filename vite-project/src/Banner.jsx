@@ -6,7 +6,7 @@ const Banner = () => {
         <div className='bannerContainer'>
             <div className='bannerTxtContainer'>
                 <div className='bannerHeadingContainer'>
-                    <h1>Build Your Ideal</h1>
+                    <h1 style={{color: "black"}}>Build Your Ideal</h1>
                     <h1 className='gradientText'>Development Stack</h1>
                 </div>
                 <p style={{fontSize: '20px'}}>Explore frontend, backend, database, and tooling options, <br />

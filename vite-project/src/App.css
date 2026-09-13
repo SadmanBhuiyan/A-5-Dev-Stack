@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    color: #475569;
 }
 
 .mainContainer {
@@ -58,6 +59,7 @@ button {
     border-radius: 10px;
     padding: 8px 20px;
     margin-top: 10px;
+    color: black;
 }
 
 .gradientBtn {
@@ -97,9 +99,21 @@ button {
 .footerContainer {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
 }
 
 ul {
     list-style-type: none;
+}
+
+.footerSocialsList {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.footerLeftContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
